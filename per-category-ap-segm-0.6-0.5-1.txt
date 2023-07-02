@@ -1,0 +1,51 @@
++---------------+-------+--------------+-------+----------------+-------+
+| category      | AP    | category     | AP    | category       | AP    |
++---------------+-------+--------------+-------+----------------+-------+
+| person        | 0.403 | bicycle      | 0.107 | car            | 0.332 |
+| motorcycle    | 0.205 | airplane     | 0.418 | bus            | 0.503 |
+| train         | 0.473 | truck        | 0.213 | boat           | 0.135 |
+| traffic light | 0.209 | fire hydrant | 0.536 | stop sign      | 0.547 |
+| parking meter | 0.331 | bench        | 0.104 | bird           | 0.193 |
+| cat           | 0.526 | dog          | 0.415 | horse          | 0.300 |
+| sheep         | 0.285 | cow          | 0.294 | elephant       | 0.406 |
+| bear          | 0.482 | zebra        | 0.502 | giraffe        | 0.469 |
+| backpack      | 0.089 | umbrella     | 0.296 | handbag        | 0.068 |
+| tie           | 0.207 | suitcase     | 0.123 | frisbee        | 0.478 |
+| skis          | 0.002 | snowboard    | 0.053 | sports ball    | 0.347 |
+| kite          | 0.224 | baseball bat | 0.147 | baseball glove | 0.288 |
+| skateboard    | 0.154 | surfboard    | 0.167 | tennis racket  | 0.418 |
+| bottle        | 0.283 | wine glass   | 0.200 | cup            | 0.295 |
+| fork          | 0.070 | knife        | 0.052 | spoon          | 0.044 |
+| bowl          | 0.264 | banana       | 0.102 | apple          | 0.095 |
+| sandwich      | 0.208 | orange       | 0.193 | broccoli       | 0.156 |
+| carrot        | 0.101 | hot dog      | 0.137 | pizza          | 0.388 |
+| donut         | 0.271 | cake         | 0.168 | chair          | 0.109 |
+| couch         | 0.211 | potted plant | 0.130 | bed            | 0.238 |
+| dining table  | 0.106 | toilet       | 0.491 | tv             | 0.428 |
+| laptop        | 0.434 | mouse        | 0.432 | remote         | 0.165 |
+| keyboard      | 0.340 | cell phone   | 0.233 | microwave      | 0.447 |
+| oven          | 0.196 | toaster      | 0.032 | sink           | 0.215 |
+| refrigerator  | 0.352 | book         | 0.046 | clock          | 0.412 |
+| vase          | 0.223 | scissors     | 0.105 | teddy bear     | 0.272 |
+| hair drier    | 0.000 | toothbrush   | 0.050 | None           | None  |
++---------------+-------+--------------+-------+----------------+-------+
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.252
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.411
+Average Precision  (AP) @[ IoU=0.55      | area=   all | maxDets=100 ] = 0.392
+Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.369
+Average Precision  (AP) @[ IoU=0.65      | area=   all | maxDets=100 ] = 0.343
+Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.309
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.267
+Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.211
+Average Precision  (AP) @[ IoU=0.85      | area=   all | maxDets=100 ] = 0.142
+Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = 0.066
+Average Precision  (AP) @[ IoU=0.95      | area=   all | maxDets=100 ] = 0.006
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.113
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.272
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.346
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.394
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.394
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.394
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.183
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.424
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.540
